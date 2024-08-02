@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: rgb(165, 97, 13);
+    height: 100px;
+}
+
+.navbar-brand{
+    background-color: rgb(152, 146, 140);
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 1.5rem;
+    padding-top: 0.625rem;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-brand>span{
+    color: rgb(66, 3, 52);
+}
+
+.navbar-brand:hover{
+    background-color: white;
+}
+
+.navbar-brand>span:hover{
+    color: rgb(194, 98, 8);
+}
+
+.nav-link>span{
+    background-color: rgb(152, 146, 140);
+    color: white;
+    text-shadow: -1px 1px yellow;
+    padding: 12px 30px 5px 30px;
+    border-radius: 0.225rem;
+    padding-bottom: 15px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+    /* margin-right: rem; */
+}
+
+.nav-link:hover{
+/* background-color: rgb(163, 75, 40); */
+}
+
+
+.nav-link>span:hover{
+    background-color: white;
+    color: rgb(194, 98, 8);
+}
+
+.center-part{
+    background-color: aqua;
+    height: 80vh;
+}
+
+
+.wrapper{
+    max-width: 1250px;
+    background-color: rgb(194, 98, 8);
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2rem;
+}
+
+.wrapper>.first{
+    background-color: rgb(87, 87, 177);
+}
+
+.wrapper>.first>h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+    color: rgb(233, 219, 219);
+}
+
+.wrapper>.first>p{
+    text-align: center;
+    padding: auto;
+}
+
+.wrapper>.left{
+    background-color: blueviolet;
+}
+
+
+
